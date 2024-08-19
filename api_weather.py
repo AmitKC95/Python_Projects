@@ -10,7 +10,7 @@ class City:
 
     def get_Data(self):
         try:
-            response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?units={self.units}&lat={self.lat}&lon={self.lon}&appid=3bc70c25618390ad75ddde1a24bf3fdd")
+            response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?units={self.units}&lat={self.lat}&lon={self.lon}&appid=remove_this_text_and_add_your_API")
         except:
             print("No Internet available right now. Try again.")
             return
